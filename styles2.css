@@ -1,0 +1,191 @@
+.cabecera{
+    margin: 0 25%;
+    border-bottom: 2px solid #FF7F3E99;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.cajaInterna{
+    background-color:transparent;
+    padding: 0 2% 0 2%;
+    margin: auto 0 0 0;
+}
+
+.nombre h1{
+    font-family: Montserrat;
+    padding: 20px 40px 10px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: auto;
+    color: #003285;
+}
+
+.subtitulo h2{
+    text-align: center;
+    margin-top: 5px;
+    color: #2A629A;
+}
+
+.menu{
+    align-items: center;
+    padding: 0;
+    width: auto;
+    height: px;
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+
+}
+
+.menuprincipal{
+    margin: 0 25%;
+    padding-top: 50px;
+    
+}
+.pestanas{
+    display: flex;
+    align-items: right !important;
+    list-style: none;
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-size: auto;
+    font-weight: 500;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.actual{
+    font-weight: bold;
+    color: #FF7F3E;
+}
+
+.menu li{
+    margin: auto;
+    position: relative;
+    padding: auto;
+}
+
+.menu a{
+    outline: none;
+    text-decoration: none;
+    color: #2A629A;
+    text-wrap: none;
+}
+
+.menu a:visited :hover {
+    color:black;
+    text-decoration: none ;
+}
+
+/*MAIN*/
+
+.experiencia{
+    margin: 100px 25% 0 25%;
+    display: flex;
+}
+
+.imagenproto{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #0003;
+    margin-left: 20px;
+}
+
+.experiencia h2{
+    font-family: Montserrat;
+    font-weight: 800;
+    padding-left: 100px;
+    color: #FF7F3E;
+}
+
+.experiencia p{
+    font-family: Montserrat;
+    padding: 40px 60px 60px 40px;
+    line-height: 1.15;
+}
+
+.experiencia2{
+    margin: 40px 25% 0 25%;
+    display: flex;
+    border-bottom: 2px solid #FF7F3E99;
+    padding-bottom: 30px;
+}
+
+.experiencia2 h2{
+    font-family: Montserrat;
+    font-weight: 800;
+    padding-left: 100px;
+    margin-bottom: 0;
+    color: #FF7F3E;
+}
+
+.experiencia2 p{
+    font-family: Montserrat;
+    padding: 10px 0px 10px 40px;
+    line-height: 1.15;
+}
+
+.texto ul{
+    color: black;
+    font-family: Montserrat;
+    line-height: 1.15;
+    padding: 10px auto;
+}
+
+.imagen{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 400px;
+    margin: 0;
+}
+.imagen2{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    width: 400px;
+    margin: 0;
+}
+
+.biblioteca{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding: 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(251, 52, 2);
+}
+
+/*FOOTER*/
+
+.pie{
+    margin: 0 25%;
+    background-color: #FFDA78bb;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.contacto h3{
+    font-family: Montserrat;
+    padding: 0 100px;
+}
+
+.contacto ul{
+    font-family: Montserrat;
+    list-style: none;
+    margin: 0;
+    padding: 0 200px;
+    box-sizing: border-box;
+    font-size: auto;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.derechos{
+    margin: 50px 0;
+}
+
+.derechos p{
+    text-align: center;
+}
